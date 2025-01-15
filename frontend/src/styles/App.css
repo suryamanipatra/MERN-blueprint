@@ -1,0 +1,42 @@
+.image-uploader {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .image-uploader input {
+    margin: 10px;
+  }
+  
+  .image-uploader button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .image-uploader button:disabled {
+    background-color: #ccc;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image-item {
+    margin: 10px;
+  }
+  
+  .uploaded-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
